@@ -1,6 +1,6 @@
-<div class='calendar-angular-app'>
+<div class='row'>
 
-  <div class='calendar-angular-sidebar'>
+  <div class='col-md-3 calendar-angular-sidebar'>
     <div class='calendar-angular-sidebar-section'>
       <h2>Opciones del calendario: </h2>
     </div>
@@ -35,7 +35,7 @@
     </div>
   </div>
 
-  <div class='calendar-angular-main'>
+  <div class='col-md-9'>
     <full-calendar
       *ngIf='calendarVisible'
       [options]='calendarOptions'

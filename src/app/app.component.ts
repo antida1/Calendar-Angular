@@ -16,8 +16,8 @@ export class AppComponent {
   calendarVisible = true;
   calendarOptions: CalendarOptions = {
     headerToolbar: {
-      left: 'timeGridDay,timeGridWeek,dayGridMonth,listWeek',
-      right: 'today prev,next'
+      left: 'timeGridDay,timeGridWeek,dayGridMonth',
+      right: 'today,prev,next'
     },
     initialView: 'timeGridWeek',
     initialEvents: INITIAL_EVENTS, // alternatively, use the `events` setting to fetch from a feed
